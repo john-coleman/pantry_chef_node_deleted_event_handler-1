@@ -9,7 +9,7 @@ module Wonga
 
       def handle_message(message)
         @logger.info "Sending chef deleted not event back to Pantry with instance ID #{message['id']}"
-        @api_client.send_delete_request("/api/chef_nodes/#{message['id']}")
+        @api_client.send_delete_request("/api/chef_nodes/#{message['id']}", message)
         @logger.info "Chef node deleted event succesfully sent}"
       end
     end
