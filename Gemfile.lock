@@ -1,9 +1,9 @@
 GIT
   remote: git@github.com:wongatech/pantry_daemon_common.git
-  revision: 82cd511b0c4c10ed1fa8ac89e81cac68b9275650
-  tag: v0.1.8
+  revision: 521a51093287dc095dbb528aecf8c1e669a2f8d9
+  tag: v0.2.3
   specs:
-    pantry_daemon_common (0.1.8)
+    pantry_daemon_common (0.2.3)
       aws-sdk
       daemons
       em-winrm
@@ -28,9 +28,9 @@ GEM
     akami (1.2.0)
       gyoku (>= 0.4.0)
       nokogiri (>= 1.4.0)
-    aws-sdk (1.20.0)
+    aws-sdk (1.31.3)
       json (~> 1.4)
-      nokogiri (>= 1.4.4, < 1.6.0)
+      nokogiri (>= 1.4.4)
       uuidtools (~> 2.1)
     builder (3.2.2)
     coderay (1.0.9)
@@ -65,7 +65,7 @@ GEM
     httpclient (2.2.0.2)
     httpi (0.9.7)
       rack
-    json (1.8.0)
+    json (1.8.1)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -75,7 +75,7 @@ GEM
       little-plugger (>= 1.1.3)
     lumberjack (1.0.4)
     method_source (0.8.2)
-    mime-types (1.25)
+    mime-types (2.0)
     mixlib-log (1.6.0)
     multi_json (1.8.0)
     net-ssh (2.7.0)
