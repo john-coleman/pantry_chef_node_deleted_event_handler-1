@@ -1,26 +1,15 @@
 GIT
   remote: git@github.com:wongatech/pantry_daemon_common.git
-  revision: 521a51093287dc095dbb528aecf8c1e669a2f8d9
-  tag: v0.2.3
+  revision: c5b2a7141a20ac45797698a9d1a27b3d1bc05037
   specs:
-    pantry_daemon_common (0.2.3)
+    pantry_daemon_common (0.4.0)
       aws-sdk
       daemons
-      em-winrm
+      em-winrm (>= 0.5.5)
       net-ssh
       net-ssh-multi
       rest-client
       syslogger
-
-GIT
-  remote: https://github.com/besol/em-winrm.git
-  revision: 3a61bf6246666a5260ec0811db045da318e0d4af
-  specs:
-    em-winrm (0.6.0)
-      eventmachine
-      mixlib-log
-      uuidtools
-      winrm
 
 GEM
   remote: https://rubygems.org/
@@ -146,7 +135,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  em-winrm!
   guard-bundler
   guard-rspec
   pantry_daemon_common!
