@@ -1,6 +1,6 @@
 GIT
-  remote: git@github.com:wongatech/pantry_daemon_common.git
-  revision: 0dc9fa779429885731c1f264329801d7f60ea530
+  remote: git://github.com/wongatech/pantry_daemon_common.git
+  revision: 62552725355ba307eee5ada72e232edb46e20c67
   specs:
     pantry_daemon_common (0.5.9)
       aws-sdk (~> 2.0)
@@ -14,18 +14,18 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk (2.1.23)
-      aws-sdk-resources (= 2.1.23)
-    aws-sdk-core (2.1.23)
+    aws-sdk (2.1.32)
+      aws-sdk-resources (= 2.1.32)
+    aws-sdk-core (2.1.32)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.1.23)
-      aws-sdk-core (= 2.1.23)
+    aws-sdk-resources (2.1.32)
+      aws-sdk-core (= 2.1.32)
     builder (3.2.2)
     coderay (1.1.0)
     daemons (1.2.3)
     diff-lcs (1.2.5)
     docile (1.1.5)
-    domain_name (0.5.24)
+    domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
     em-winrm (0.7.0)
       eventmachine (~> 1.0.0)
@@ -75,7 +75,7 @@ GEM
     mixlib-log (1.6.0)
     multi_json (1.11.2)
     nenv (0.2.0)
-    net-ssh (2.9.2)
+    net-ssh (3.0.1)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
     net-ssh-multi (1.2.1)
@@ -86,7 +86,7 @@ GEM
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    pry (0.10.1)
+    pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
@@ -114,7 +114,7 @@ GEM
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
     rubyntlm (0.4.0)
-    rufus-scheduler (3.1.4)
+    rufus-scheduler (3.1.7)
     shellany (0.0.1)
     simplecov (0.10.0)
       docile (~> 1.1.0)
